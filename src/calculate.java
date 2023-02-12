@@ -13,7 +13,6 @@ public class calculate {
         System.out.println("Select the math operation: +, -, / or * ");
         String operation = scanner.next();
 
-
         if (operation.equals("+")){
             sum(x,y);
         } else if (operation.equals("-")) {
