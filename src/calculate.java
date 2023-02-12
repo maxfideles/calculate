@@ -4,6 +4,8 @@ public class calculate {
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("=== Calculator ===");
+
         System.out.println("Insert the first number: ");
         float x = scanner.nextInt();
 
