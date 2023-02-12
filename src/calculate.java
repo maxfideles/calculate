@@ -5,13 +5,14 @@ public class calculate {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Insert the first number: ");
-        int x = scanner.nextInt();
+        float x = scanner.nextInt();
 
         System.out.println("Insert the second number: ");
-        int y = scanner.nextInt();
+        float y = scanner.nextInt();
 
         System.out.println("Select the math operation: +, -, / or * ");
         String operation = scanner.next();
+
 
         if (operation.equals("+")){
             sum(x,y);
@@ -25,21 +26,21 @@ public class calculate {
             System.out.println("Option unknown");
         }
     }
-    static void sum (int x, int y){
+    static void sum (float x, float y){
         System.out.println(x+y);
     }
-    static void minus (int x, int y){
+    static void minus (float x, float y){
 
         System.out.println(x-y);
 
     }
 
-    static void divide (int x, int y){
+    static void divide (float x, float y){
         double c = x/y;
         System.out.println(c);
     }
 
-    static void multipli (int x, int y){
+    static void multipli (float x, float y){
 
         System.out.println(x*y);
 
